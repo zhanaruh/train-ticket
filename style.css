@@ -1,0 +1,201 @@
+
+
+div.carousel-inner{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;}
+
+div.thing{
+	display:inline;
+	margin-left: 40px;
+	padding: 30px;
+	position: relative;	
+	height: 700px;
+
+}
+
+div.othertext{
+	position: relative;
+	margin-left: -450px;
+	font-family: Verdana;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	
+}
+
+p.obj{
+	font-weight: bold;
+	font-size: 120%;
+}
+
+
+div.description{
+	position: relative;
+	margin-left: 900px;
+	top:-600px;
+	font-family: Verdana;
+	height:10px;
+	width: 400px
+}
+
+hr{ 
+	position:relative;
+    display: block;
+    border-style: inset;
+    border-width: 10px;
+}
+
+
+div.image1{
+	display:inline;
+	padding: 27px 2px;
+    border: 2px solid #000000;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 10px 147px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    cursor: pointer;
+	font-family: Verdana;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #fff;}
+
+.show {display: block;}
+
+p.size{
+	display: inline;
+	font-style: italic;
+	font-family: Verdana;
+}
+
+p.size1{
+	display: inline;
+	font-family: Verdana;
+	font-size: 11px;
+}  
+
+div.part{
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	
+}
+
+
+
+
+ div.myDropdown{
+	display: flex;
+	justify-content: space-between;
+ }
+ li.navibar{
+	 font-family: Verdana;
+	 font-weight: bold;
+ }
+ 
+ button.button {
+    background-color: #1C1816;
+    border: none;
+    color: white;
+    padding: 12px 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+div.mainimg{
+	display:inline;
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+div.subgal{
+	display: inline;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	 align-items: center;
+	
+}
+
+div.gallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+p.pyjamas{
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+
+
+
+  
